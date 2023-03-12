@@ -1,0 +1,21 @@
+.navbar-collapse .navbar-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navbar-collapse .navbar-nav .nav-item {
+  display: inline;
+  float: left;
+}
+.navbar-collapse .navbar-nav .nav-item a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navbar-collapse .navbar-nav .nav-item a:hover {
+  background-color: #111;
+}
