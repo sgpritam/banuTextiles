@@ -7,6 +7,7 @@ import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
+import Home from "./Home";
 
 function Header() {
   return (
@@ -38,9 +39,9 @@ function Header() {
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="#">
+                <button className="btn btn-success" onClick={Home}>
                   Home
-                </a>
+                </button>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">
