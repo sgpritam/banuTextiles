@@ -8,6 +8,8 @@ import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
 import Home from "./Home";
+import logo from "../Image/logo.png";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -24,12 +26,7 @@ function Header() {
         </IconButton>
         <nav class="navbar navbar-light">
           <a class="navbar-brand" href="#">
-            <img
-              src="/docs/4.0/assets/brand/bootstrap-solid.svg"
-              width="30"
-              height="30"
-              alt=""
-            />
+            <img src={logo} width="30" height="30" alt="" />
           </a>
         </nav>
         <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
@@ -39,9 +36,7 @@ function Header() {
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
-                <button className="btn btn-success" onClick={Home}>
-                  Home
-                </button>
+                <a href="/">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">
@@ -49,14 +44,10 @@ function Header() {
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
-                  Services
-                </a>
+                <a href="/auth">Services</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
-                  Contact
-                </a>
+                <a href="/contact">Contact</a>
               </li>
             </ul>
           </div>

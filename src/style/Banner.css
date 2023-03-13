@@ -1,0 +1,232 @@
+.slider-height {
+  min-height: 700px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .slider-height {
+    min-height: 700px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .slider-height {
+    min-height: 550px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .slider-height {
+    min-height: 500px;
+  }
+}
+
+@media (max-width: 575px) {
+  .slider-height {
+    min-height: 410px;
+  }
+}
+
+.slider-height2 {
+  min-height: 150px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .slider-height2 {
+    min-height: 200px;
+  }
+}
+
+@media (max-width: 575px) {
+  .slider-height2 {
+    min-height: 200px;
+  }
+}
+
+.slider-bg1 {
+  background-image: url(../Image/h1_hero1.jpg);
+}
+
+.slider-bg2 {
+  background-image: url(../Image/h1_hero2.jpg);
+}
+
+.slider-area {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.slider-area .hero-caption {
+  text-align: center;
+}
+
+.slider-area .hero-caption span {
+  color: #ff2020;
+  font-family: "Clicker Script", cursive;
+  font-size: 50px;
+  line-height: 1.2;
+  font-weight: 400;
+  margin-bottom: 1px;
+  display: block;
+}
+
+@media (max-width: 575px) {
+  .slider-area .hero-caption span {
+    margin-bottom: 30px;
+    font-size: 56px;
+  }
+}
+
+.slider-area .hero-caption h1 {
+  font-size: 55px;
+  font-weight: 500;
+  color: #292621;
+  line-height: 1.3;
+  margin-bottom: 2px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .slider-area .hero-caption h1 {
+    font-size: 60px;
+    line-height: 1.2;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .slider-area .hero-caption h1 {
+    font-size: 50px;
+    line-height: 1.2;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .slider-area .hero-caption h1 {
+    font-size: 38px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 575px) {
+  .slider-area .hero-caption h1 {
+    font-size: 28px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+  }
+}
+
+.slider-area .hero-caption p {
+  color: #74706b;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 31px;
+  padding: 0 50px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .slider-area .hero-caption p {
+    font-size: 21px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .slider-area .hero-caption p {
+    font-size: 20px;
+    margin-bottom: 41px;
+  }
+}
+
+@media (max-width: 575px) {
+  .slider-area .hero-caption p {
+    font-size: 15px;
+    padding: 0 0px;
+    line-height: 1.6;
+    margin-bottom: 32px;
+  }
+}
+
+.slider-area .hero-caption.hero-caption2 h2 {
+  color: #292621;
+  font-size: 35px;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .slider-area .hero-caption.hero-caption2 h2 {
+    font-size: 32x;
+  }
+}
+
+@media (max-width: 575px) {
+  .slider-area .hero-caption.hero-caption2 h2 {
+    font-size: 32px;
+  }
+}
+.breadcrumb {
+  background: none;
+  padding: 0;
+  margin: 0;
+}
+
+.breadcrumb a {
+  color: #74706b;
+  font-size: 14px;
+  text-transform: capitalize;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.breadcrumb .breadcrumb-item + .breadcrumb-item::before {
+  display: inline-block;
+  color: #74706b;
+  content: "|";
+  font-size: 14px;
+  padding: 0 4px;
+  padding-right: 8px;
+}
+
+.slider-active button.slick-arrow {
+  -webkit-transition: all 0.4s ease-out 0s;
+  -moz-transition: all 0.4s ease-out 0s;
+  -ms-transition: all 0.4s ease-out 0s;
+  -o-transition: all 0.4s ease-out 0s;
+  transition: all 0.4s ease-out 0s;
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  background: none;
+  border: 0;
+  padding: 0;
+  z-index: 2;
+  height: 100px;
+  width: 50px;
+  cursor: pointer;
+  background: rgba(41, 38, 33, 0.2);
+}
+
+.slider-active button.slick-arrow:hover {
+  background: #292621;
+}
+
+.slider-active button.slick-arrow:hover i {
+  color: #fff;
+}
+
+.slider-active button.slick-arrow i {
+  font-size: 20px;
+  line-height: 60px;
+}
+
+.slider-active button.slick-next {
+  left: auto;
+  right: 0px;
+}
