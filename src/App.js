@@ -10,6 +10,8 @@ import "./style/Title.css";
 import "./style/Header.css";
 import "./style/Auth.css";
 import "./style/Banner.css";
+import "./style/Product.css";
+import "./style/Common.css";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
